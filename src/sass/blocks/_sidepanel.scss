@@ -8,6 +8,13 @@
     position: fixed;
     top: 230px;
     z-index: 3;
+    &__link {
+        &:hover {
+            svg path {
+                fill:red;
+            }
+        }
+    }
     &__divider {
         background-color: #000000;
         height: 70px;
