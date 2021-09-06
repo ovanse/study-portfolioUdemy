@@ -18,6 +18,8 @@
     &__item {
         transition: all 0.3s;
         img {
+            height: 100%;
+            object-fit: cover;
             width: 100%;
         }
         &:hover {
