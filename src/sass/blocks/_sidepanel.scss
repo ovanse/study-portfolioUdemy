@@ -16,7 +16,7 @@
         }
     }
     &__divider {
-        background-color: #000000;
+        background-color: #000;
         height: 70px;
         width: 2px;
     }
@@ -25,7 +25,7 @@
         width: 25px;
         span {
             display: block;
-            transform: rotate(-90deg) translate(-30%, -260%);
+            transform: rotate(-90deg) translate(-30%,-260%);
             width: 150px;
         }
     }

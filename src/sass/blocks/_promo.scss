@@ -1,11 +1,17 @@
 .promo {
-    background: url(../img/main_bg.jpg) no-repeat 50%/cover;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     min-height: 100vh;
     padding-top: 205px;
     position: relative;
     &__title {
         margin-top: 10px;
         width: 535px;
+    }
+    &__subtitle {
+        padding-left: 10px;
+        position: relative;
+        z-index: 2;
+        @include before_circle;
     }
     &__btns {
         align-items: center;
@@ -21,11 +27,5 @@
             color: #000;
             text-decoration: none;
         }
-    }
-    &__subtitle {
-        padding-left: 10px;
-        position: relative;
-        z-index: 2;
-        @include before_circle;
     }
 }
